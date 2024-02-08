@@ -1,0 +1,33 @@
+@import url("main.css");
+
+.main-content {
+    padding: 5.5rem 0 0 0;
+    .tambah {
+        a {
+            text-decoration: none;
+            color: var(--lighter);
+            background-color: var(--dark);
+            padding: 0.5rem 1rem;
+            border-radius: 0.45rem;
+        }
+        a:hover {
+            background-color: var(--primary);
+            color: var(--dark);
+            border: 1px solid var(--dark);
+        }
+        .status {
+            font-size: 1.4rem;
+        }
+    }
+    .table {
+        border: none;
+        .table-head {
+            th {
+                background-color: var(--primary);
+                padding: 0.5rem 1rem 0.5rem 0.5rem;
+                color: var(--lighter);
+                text-align: start;
+            }
+        }
+    }
+}

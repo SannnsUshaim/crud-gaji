@@ -1,0 +1,67 @@
+@import url("main.css");
+
+body {
+    min-height: 120vh;
+}
+
+header {
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+form {
+    fieldset{
+        border: 1px solid var(--dark);
+        border-radius: 0.5rem;
+        padding: 1rem;
+        p {
+            display: flex;
+            flex-direction: column;
+            label {
+                margin-bottom: 0.6rem;
+            }
+            input {
+                padding: 0.3rem 0.7rem;
+                font-size: 1rem;
+                border: 1px solid var(--dark); 
+                border-radius: 0.5rem;
+            }
+            textarea {
+                border: 1px solid var(--dark);
+                border-radius: 0.5rem;
+                font-size: 1rem;
+                padding: 0.3rem 0.7rem;
+            }
+            select {
+                border: 1px solid var(--dark);
+                border-radius: 0.5rem;
+                padding: 0.3rem;
+                font-size: 1rem;
+            }
+        }
+        button {
+            background-color: var(--dark);
+            color: var(--lighter);
+            font-weight: 500;
+            font-size: 1rem;
+            padding: 0.6rem 1.2rem;
+            border-radius: 0.5rem;
+            border: none;
+            cursor: pointer;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            transition: all ease-out 0.2s;
+        }
+        button:hover{
+            background-color: var(--primary);
+            color: var(--dark);
+            border: 1px solid var(--dark);
+        }
+        a {
+            text-decoration: none;
+            margin-left: 1rem;
+            font-weight: 500;
+            color: var(--dark);
+        }
+    }
+}

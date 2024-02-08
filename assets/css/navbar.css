@@ -1,0 +1,49 @@
+@import url("main.css");
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary);
+    padding: 0.7rem 2rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.navbar-header {
+    p {
+        font-weight: 700;
+        font-size: 1.4rem;
+        color: var(--lighter);
+    }
+}
+
+.navbar-menu {
+    ul {
+        display: flex;
+        list-style: none;
+        li {
+            margin-right: 0.8rem;
+            a {
+                font-weight: 400;
+                text-decoration: none;
+                color: var(--lighter);
+                transition: all ease-in 0.2s;
+                span {
+                    margin-left: 0.8rem;
+                }
+            }
+            a:hover {
+                color: var(--dark);
+                font-weight: 700;
+                span {
+                    color: var(--lighter);
+                    font-weight: 500;
+                }
+            } 
+        }
+    }
+}
